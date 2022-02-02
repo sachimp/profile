@@ -1,0 +1,117 @@
+body {
+    background-color: white;
+    font-family:'Gaegu', cursive;
+    margin: 0;
+    background-image: url("images/cloud_clipart_better.png");
+    background-size: 200px;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    color: red;
+}
+
+p {
+    font-size: 30px;
+}
+
+#sticky-banner {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    text-align: center;
+    font-size: 200%;
+}
+
+.card-container {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto 0 auto;
+    padding: 150px;
+    background-color: white;
+    border-radius: 20%;
+}
+
+.card-container img {
+    border-radius: 20%;
+}
+
+.card-container a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+#welcome-title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: white;
+}
+
+#welcome-title p:hover {
+    font-size: 200%;
+    transition: 5s;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 0px 20px;
+    width: 30%;
+}
+
+.list-inline a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container-black-background {
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.nav-container {
+    width: 30%;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 40px;
+    background-color: white;
+}
+
+.nav-container h3 {
+    color: red;
+}
+
+.nav-container li:hover {
+    color: red;
+    font-size: 18px;
+}
+
+#funny-arrow {
+    position: absolute;
+    font-size: 20px;
+    left: 60%;
+    bottom: 35%;
+    padding: 0;
+    background-color: white;
+}
+
+#funny-arrow :hover {
+    color: red;
+}

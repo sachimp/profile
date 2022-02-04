@@ -31,7 +31,7 @@ p {
 .card-container {
     text-align: center;
     width: 40%;
-    margin: 0 auto 0 auto;
+    margin: 20px auto 0 auto;
     padding: 150px;
     background-color: white;
     border-radius: 20%;
@@ -47,16 +47,16 @@ p {
     font-size: 25px;
 }
 
-#welcome-title {
+#welcome-title p{
     text-align: center;
     font-size: 50px;
     font-weight: bolder;
     background-color: white;
+    transition: 5s;
 }
 
 #welcome-title p:hover {
-    font-size: 200%;
-    transition: 5s;
+    font-size: 400%;
 }
 
 .list-inline {
@@ -83,6 +83,7 @@ a:hover {
     background-color: black;
     color: white;
     margin-bottom: 0;
+    padding: 10px 0 10px 0;
     text-align: center;
 }
 

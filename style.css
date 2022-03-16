@@ -83,16 +83,17 @@ a:hover {
     background-color: black;
     color: white;
     margin-bottom: 0;
-    padding: 10px 0 10px 0;
+    padding: 0px 0 1px 0;
     text-align: center;
 }
 
 .nav-container {
-    width: 30%;
-    position: absolute;
+    width: 20%;
+    position: fixed;
     margin-left: 20px;
     margin-top: 40px;
     background-color: white;
+    border-radius: 30%;
 }
 
 .nav-container h3 {
@@ -108,7 +109,7 @@ a:hover {
     position: absolute;
     font-size: 20px;
     left: 60%;
-    bottom: 20%;
+    top: 75%;
     padding: 0;
     background-color: white;
 }
